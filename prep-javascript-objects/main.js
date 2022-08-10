@@ -4,10 +4,8 @@ var person = {
   hobby: 'Watching TikToks'
 };
 console.log(person);
-var firstName = 'Patricia ';
-var lastName = 'Manalang ';
-var fullName = firstName + lastName;
-console.log("The person's name is:", fullName);
+person.fullName = person.firstName + ' ' + person.lastName;
+console.log("The person's name is:", person.fullName);
 
 person.job = 'realtor';
 console.log("The person's current job is:", person.job);
