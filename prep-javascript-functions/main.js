@@ -11,7 +11,7 @@ var convertHoursToMinutesResult = convertHoursToMinutes(2);
 console.log('convertHoursToMinutes Exercise:', convertHoursToMinutesResult);
 
 function getGreeting(name) {
-  return 'Hello World!';
+  return 'Hello ' + name + '!';
 }
 var getGreetingResult = getGreeting('World');
 console.log('getGreeting Exercise:', getGreetingResult);
@@ -41,7 +41,7 @@ var getCircleCircumferenceResult = getCircleCircumference(5);
 console.log('getCircleCircumference Exercise:', getCircleCircumferenceResult);
 
 function getFullName(firstName, lastName) {
-  return 'Juan' + ' Ramirez';
+  return firstName + ' ' + lastName;
 }
 var getFullNameResult = getFullName('Juan', 'Ramirez');
 console.log('getFullName Exercise:', getFullNameResult);
